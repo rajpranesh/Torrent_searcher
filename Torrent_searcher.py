@@ -17,7 +17,7 @@ soup = BeautifulSoup(r.content , 'html.parser')
 title_list=soup.find_all('div',class_='detName')
 i=1
 for title in title_list:
-    print(i,")",title.text,)
+    print(i,")",title.text)
     i=i+1
     
    
